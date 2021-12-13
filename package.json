@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/mategyf/express-logger#readme",
   "dependencies": {
+    "morgan": "^1.10.0",
     "winston": "^3.3.3"
   },
   "devDependencies": {
