@@ -1,9 +1,13 @@
 {
-  "name": "express-logger",
-  "version": "1.0.0",
+  "name": "@mategyf/express-logger",
+  "version": "1.0.2",
   "description": "Logger for ExpressJS using winston",
-  "main": "src/index.js",
+  "main": "lib/index.js",
+  "files": [
+    "/lib"
+  ],
   "scripts": {
+    "build": "babel src -d lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +19,14 @@
   "bugs": {
     "url": "https://github.com/mategyf/express-logger/issues"
   },
-  "homepage": "https://github.com/mategyf/express-logger#readme"
+  "homepage": "https://github.com/mategyf/express-logger#readme",
+  "dependencies": {
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/preset-env": "^7.16.4"
+  }
 }
