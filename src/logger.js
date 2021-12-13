@@ -9,6 +9,7 @@ const options = {
     maxFiles: 5,
     colorize: false,
     json: true,
+    format: format.combine(format.timestamp(), format.json()),
   },
   console: {
     level: 'debug',
