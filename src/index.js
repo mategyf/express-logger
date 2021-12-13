@@ -1,3 +1,3 @@
-exports.logger = function() {
-  console.log("This is a message from the demo package");
-}
+import logger from './logger';
+
+export default logger;
